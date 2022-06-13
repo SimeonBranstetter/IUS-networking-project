@@ -1,0 +1,10 @@
+function love.conf(t)
+    t.version = "11.3"                  -- The LÖVE version this game was made for (string)  
+    t.window.title = "Battleship"         -- The window title (string)
+    t.window.width = 950               -- The window width (number)
+    t.window.height = 750              -- The window height (number)
+    t.window.resizable = false          -- Let the window be user-resizable (boolean)
+    t.window.minwidth = 1               -- Minimum window width if the window is resizable (number)
+    t.window.minheight = 1              -- Minimum window height if the window is resizable (number)
+    t.window.fullscreen = false         -- Enable fullscreen (boolean) 
+end
